@@ -14,7 +14,7 @@ public class ArrList {
     public void  afisareAngajati(){
         lista.forEach(System.out::println );
     }
-
+    // .equals() ca in problema cu etajele si repartizarea pe apartamente din jpg ul P1
     // pot sa fac ceva cu iteratorul(nu afisare { e facuta cu forEach [care e mai rapid conform OCP pg 535]}) de exemplu sa parcurga array ul si sa dea remove angajatilor care nu apartin de departamentul IT?
     public void StergeifNotIT(){
         Iterator<Angajat> iter = lista.iterator();
