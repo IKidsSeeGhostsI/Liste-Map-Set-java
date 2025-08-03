@@ -13,7 +13,7 @@ public class Main {
         arr.afisareAngajati();
         arr.StergeifNotIT();
         arr.afisareAngajati();
-//-------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
         HashSett set = new HashSett();
          // 01.08.2025 23:46
 
@@ -55,6 +55,7 @@ public class Main {
         String obiect = "laptop";
         System.out.println("Utilizatorii care au cautat ==  " +obiect+ " sunt :: ");
         set.AfisareDupaCautare(obiect);
+//----------------------------------------------------------------------------------------------------------------------
 
 
     }

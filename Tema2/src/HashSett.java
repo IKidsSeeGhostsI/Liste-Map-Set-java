@@ -13,9 +13,10 @@ public class HashSett {
     public HashSet<Utilizator> set = new HashSet<>();
 
     public void adaugaUtilizator(Utilizator u){
+
         set.add(u);
     }
-// metoda Contains exista doar in interfata Collection nu sin in Map {Ex 486/487 OCP}
+// metoda Contains exista doar in interfata Collection nu si in Map {Ex 486/487 OCP}
     public void AfisareDupaCautare(String obiect){
         for(Utilizator u : set){
             if(u.cautari.contains(obiect)){

@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+//----------------------------------------------------------------------------------------------------------------------
+// (!)ca sa fac un K-NN in functie de varsta as avea nevoie de o metoda care sa imi scada data curenta cu data introdusa de utilizator la crearea contului(!)
+//----------------------------------------------------------------------------------------------------------------------
 
 public class Utilizator {
     String utilizatorID;

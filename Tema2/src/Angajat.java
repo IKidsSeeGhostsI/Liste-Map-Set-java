@@ -21,6 +21,8 @@ public void AfisDate(){
      System.out.println("Salariu " + this.salariu);
 }
 */
+    //se utilizeaza getteri pentru respectarea principiului de incapsulare --> modif implementarea interna fara sa afectez codul din afara
+    //nu se recomanda sa accesezi direct campurile din afara clasei
     //nici de metodele de get nu mai am nevoie acum dupa ce am facut sa functioneze ArrList si Angajat
     /*
     public String getiDAngajat(){
