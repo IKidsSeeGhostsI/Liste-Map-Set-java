@@ -1,9 +1,9 @@
 //inspiratie : tabelul emp si  interogarile pe care le faceam pe tabelul emp la BD in SQL
 public class Angajat {
-    public String iDAngajat;
-    public String nume;
-    public float salariu;
-    public String departament;
+    String iDAngajat;
+    String nume;
+    float salariu;
+    String departament;
 
 
  public Angajat(String iD,String num, float sal, String dept){
